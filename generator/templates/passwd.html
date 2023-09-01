@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+<div class="col-md-4 offset-md-4 mt-5 text-center">
+    <div class="card card-body text-bg-dark text-center">
+        <h1>passwd</h1>
+        <p>{{ passwd }}</p>
+    </div>
+    <a href="{% url 'home' %}" class="btn btn-link text-dark">volver al generador</a>
+</div>
+
+{% endblock %}
+
